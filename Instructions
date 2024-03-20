@@ -1,0 +1,23 @@
+Login Details: 
+
+Create new account  and use it for both user module and admin module
+
+
+How to start the Project
+
+step 1 : Download the folder 
+step 2: Extract the folder
+step 3: open in ID
+step 4: Open terminal and split 
+
+for Backened  
+
+step 5 : cd backened
+step 6: node index.js 
+
+for Frontened
+
+step 7 : cd frontened 
+step 8: npm start
+
+

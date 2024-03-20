@@ -1,0 +1,413 @@
+/* Login.css */
+.loginpage{
+  height: 800px;
+  width: 100%;
+  background-color:#0d6efd
+  }
+  .login-page {
+      width: 360px;
+      padding: 8% 0 0;
+      margin: auto;
+      
+    }
+    
+    .form {
+      position: relative;
+      z-index: 1;
+      background: #FFFFFF;
+      max-width: 360px;
+      margin: 0 auto 100px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    
+    .form input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    
+    .form button {
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background: #0d6efd;
+      width: 100%;
+      border: 0;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer;
+    }
+    
+    .form button:hover, .form button:active, .form button:focus {
+      background: #0d6efd;
+    }
+    
+    .form .message {
+      margin: 15px 0 0;
+      color: #b3b3b3;
+      font-size: 12px;
+    }
+    
+    .form .message a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    
+    .form .register-form {
+      display: none;
+    }
+    
+   
+    
+
+    .homebanner{
+      height: 500px;
+      width: 100%;
+      background-image: url('https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.6;
+    }
+    .Home h1{
+      position: relative;
+      bottom: 300px;
+      left: 490px;
+      /* color: white; */
+      width: 900px;
+      font-family: 'cursive', cursive;
+      font-weight: bold;
+      font-size: 60px;
+      animation: bounceInDown;
+      animation-duration: 3s;
+      
+    }
+    .homediv {
+      height: 400px;
+      width: 100%;
+     
+    }
+    .homediv img{
+        height: 400px;
+        margin-left: 70px;
+        animation: bounceInLeft;
+        animation-duration: 3s;
+    }
+    .homediv p{
+      display: inline-block;
+      width: 50%;
+      margin-left: 40px;
+      text-align: justify;
+      position: relative;
+      top: 100px;
+      
+    }
+    .mobheading{display: none;}
+    @media (max-width:650px) {
+      .mobheading{
+        display: inline;
+        position: fixed;
+        top: 0px;
+        left: 90px;
+       
+      }
+      .homediv img{
+        height: 400px;
+        margin-left: 0px;
+        width: 100%;
+        z-index: 2;
+    }
+    .homediv p{
+      display: inline-block;
+      width: 80%;
+      margin-left: 37px;
+      text-align: justify;
+      position: relative;
+      top: 100px;
+      
+    }
+
+    .Home h1{
+      position: relative;
+      bottom: 280px;
+      left: 10px;
+      font-size: 35px;
+      
+      
+    }
+    .homediv {
+      height: 400px;
+      width: 100%;
+     
+    }
+    
+    }
+
+      
+.testimonial{
+  height: 300px;
+  position: relative;
+  top: -70px;
+}
+.testimonial h2{
+  margin-left: 700px;
+  margin-top: 50px;
+  width: 30%;
+}
+.testimonial p{
+  text-align: center;
+  margin-top: 50px;
+  width: 80%;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.testimonial h6{
+  margin-left: 650px;
+  width: 250px;
+  background-color: #f2f2f2;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+}
+.testimonial button{
+  border: none;
+  background-color: rgb(11, 10, 10);
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.testimonial .testbuttons{
+  margin-left: 720px;
+  margin-top: 20px;
+  
+}
+
+
+    /*About*/
+
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 12px;
+    }
+    
+    .breadcrum_inner {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: calc(85px * .7);
+      padding-bottom: calc(90px * .7);
+    }
+    
+    .breadcrum_heading {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #0d2235;
+      padding-bottom: 1.5rem;
+    }
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    
+    a:hover,
+    .copyright-menu a:hover {
+      color: #fb5300;
+    }
+    
+    .hero_section1 {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    
+    .hero_section1_img {
+      width: 100%;
+      border-radius: 25px;
+    }
+    
+    .herosection_text {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: justify;
+    }
+    
+    .herosection_quote {
+      width: 100%;
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .herosection_quote_img {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .herosection_quote_text {
+      width: 100%;
+      margin: 12px auto;
+      display: flex;
+      gap: 19px;
+      color: #232630;
+      align-items: baseline;
+      justify-content: center;
+      text-align: justify;
+    }
+    
+    .herosection_quote_text_img {
+      width: 32px;
+      height: 32px;
+      margin-top: 12px;
+    }
+    
+    .herosection_quote_description {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      font-size: 1rem;
+      line-height: 30px;
+    }
+    
+    .herosection_quote_author {
+      font-size: 13px;
+      font-weight: 900;
+    }
+    
+    .hero_section2 {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      margin: 90px auto;
+    }
+    
+    .hero_section2_img {
+      width: 100%;
+      object-fit: cover;
+      transition: all 1.5s ease-out;
+      background: transparent;
+      transform: scale(0.8);
+      opacity: 1;
+      
+    }
+    
+    .hero_section2_img:hover {
+      transform: scale(1);
+    }
+    
+    .hero_section2_heading {
+      font-size: larger;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .hero_section2_description {
+      line-height: 28px;
+      text-align: justify;
+    }
+    
+    @media (min-width:580px) {
+
+
+      .herosection_quote {
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
+    
+      .herosection_quote_img {
+          width: 25%;
+      }
+    
+      .hero_section2_div1 {
+          width: 100%;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          justify-content: space-between
+      }
+    
+      .herosection2_div2 {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between
+      }
+    
+      .hero_section2_img {
+          width: 50%;
+      }
+    }
+
+
+
+    @media only screen and (max-width:650px) {
+      .testimonial{
+        height: 300px;
+        position: relative;
+        top: -70px;
+      }
+      .testimonial h2{
+        margin-left: 130px;
+        margin-top: 40px;
+        width: 30%;
+      }
+      .testimonial p{
+        text-align: center;
+        margin-top: 50px;
+        width: 80%;
+        font-size: 20px;
+        margin-left: 30px;
+        position: relative;
+        bottom: 30px;
+      }
+      .testimonial h6{
+        margin-left: 60px;
+        position: relative;
+        bottom: 30px;
+        width: 250px;
+        background-color: #f2f2f2;
+      text-align: justify;
+      padding: 5px;
+      border-radius: 5px;
+      }
+      .testimonial button{
+        border: none;
+        background-color: rgb(7, 7, 7);
+        height: 10px;
+        width: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        
+      }
+      .testimonial .testbuttons{
+        margin-left:160px;
+        margin-top: 20px;
+        
+      }
+      
+      .Home h1{
+        width: 100%;
+      }
+    }
